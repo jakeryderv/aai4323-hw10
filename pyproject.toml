@@ -1,0 +1,35 @@
+[project]
+name = "aai4323-hw10"
+version = "0.1.0"
+description = "Homework 10: Exploratory Data Analysis for Fairness"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy==1.26.4",
+    "pandas==2.1.4",
+    "jupyterlab",
+    "ipykernel",
+    "ipywidgets",
+    "notebook",
+    "nbconvert",
+    "nbformat",
+    "jupyter-client",
+    "jupyter-core",
+    "matplotlib",
+    "seaborn",
+    "scipy",
+    "scikit-learn",
+    "statsmodels",
+    "tqdm",
+    "python-dotenv",
+    "tabulate",
+    "psutil",
+    "requests",
+    "python-dateutil",
+    "pyyaml",
+    "joblib",
+    "cloudpickle",
+    "ucimlrepo",
+]
+
+[tool.uv]
+package = false
